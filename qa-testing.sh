@@ -28,7 +28,7 @@ pkg classes do: [ :cls |
 				tab; tab; tab; log: '* '; logCr: crit description
 		]
 	]
-].
+]."
 }
 
 main() {
