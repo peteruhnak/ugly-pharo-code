@@ -1,0 +1,11 @@
+language: smalltalk
+sudo: false
+
+os:
+  - linux
+
+smalltalk:
+  - Pharo-6.0
+
+after_success:
+  - ./qa-testing.sh
