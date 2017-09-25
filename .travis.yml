@@ -9,6 +9,9 @@ smalltalk:
 
 jobs:
   include:
+    - stage: bash-test
+      script: ./bash-test.sh
     - stage: test
+      skip_cleanup: true
     - stage: lint
-    - script: ./qa-testing.sh
+      script: ./qa-testing.sh
